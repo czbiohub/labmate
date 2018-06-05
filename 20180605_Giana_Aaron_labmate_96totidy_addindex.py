@@ -1,11 +1,9 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[4]:
 
 
-import catheat
-import numpy as np
 import pandas as pd 
 from functools import reduce 
 
@@ -89,8 +87,8 @@ def import_coords_and_index(metadata_df, path_to_coords, path_to_i7_384, path_to
 import_coords_and_index(metadata_df=dfs_merged, path_to_coords='/Users/giana.cirolia/Desktop/Nucleofection_Pipelne_Code/coord_maps',path_to_i7_384='/Users/giana.cirolia/Desktop/Nucleofection_Pipelne_Code/i7_index_384', path_to_i5_384='/Users/giana.cirolia/Desktop/Nucleofection_Pipelne_Code/i5_index_384',i7_384_coord="coord1_384", i7_keyname="i7_index_384", i5_384_coord="coord2_384", i5_keyname="i5_index_384", well_type="well_id_96", path_to_data="/Users/giana.cirolia/Desktop/Nucleofection_Pipelne_Code/returned_data", date=20180529)
 
 
-# In[ ]:
+# In[3]:
 
 
-get_ipython().system(' jupyter nbconvert --to script 20180601_Giana_Aaron_labmate_96totidy_plateconversions.ipynb')
+get_ipython().system(' jupyter nbconvert --to script 20180605_Giana_Aaron_labmate_96totidy_addindex.ipynb')
 
