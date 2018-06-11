@@ -1,4 +1,4 @@
-,well_id_96,coord1_384_x,i7_index_384,I7_Index_ID,i7_index_sequence,cell_number,experimental_or_control,nuclease,nucleofection_buffer,coord1_384_y,i5_index_384,i5_index_ID,i5_index_sequence
+,well_id_96,coord1_384_x,well_id_384_x,I7_Index_ID,i7_index_sequence,cell_number,experimental_or_control,nuclease,nucleofection_buffer,coord1_384_y,well_id_384_y,i5_index_ID,i5_index_sequence
 0,A1,A1,A1,i7-00001,CTGATCGT,1000000,exp,spCas9,P1,A1,A1,i5-00001,ACGATCAG
 1,A2,A3,A3,i7-00003,TGAGCTAG,1000000,exp,spCas9,P1,A3,A3,i5-00003,CTAGCTCA
 2,A3,A5,A5,i7-00005,CTTGTCGA,1000000,exp,spCas9,P1,A5,A5,i5-00005,TCGACAAG
