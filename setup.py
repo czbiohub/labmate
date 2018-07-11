@@ -1,7 +1,8 @@
 from setuptools import setup
 
 setup(
-        name="labmate",
-        version="0.0.1",
-        description="Making python tools."
+    name="labmate",
+    version="0.0.1",
+    description="Making python tools.",
+    install_requires=['pandas']
 )
