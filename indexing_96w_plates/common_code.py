@@ -5,13 +5,13 @@ import glob
 
 
 class MetaData:
-    RETURNED_DATA="returned_data"
-
-    def __init__(self, metadata_csv):
-        self.path = "{a}/{b}".format(a=MetaData.RETURNED_DATA, b=metadata_csv)
+    def __init__(self, metadata_dir, metadata_csv):
+        self.path = "{a}/{b}".format(a=metadata_dir, b=metadata_csv)
         self.name = os.path.splitext(metadata_csv)[0]
+
     def make_df(self):
         return pd.read_csv(self.path).drop("Unnamed: 0", axis=1)
+
     def col_names(self):
         return pd.read_csv(self.path).columns
 
